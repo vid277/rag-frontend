@@ -56,12 +56,6 @@ const chatBubbleVariants = cva(
 
 type Animation = VariantProps<typeof chatBubbleVariants>["animation"];
 
-interface Attachment {
-  name?: string;
-  contentType?: string;
-  url: string;
-}
-
 interface PartialToolCall {
   state: "partial-call";
   toolName: string;

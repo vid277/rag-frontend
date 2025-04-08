@@ -213,12 +213,12 @@ export function Chat({
         isPending={isGenerating || isTyping}
         handleSubmit={handleSubmit}
       >
-        {({ files, setFiles }) => (
+        {() => (
           <MessageInput
             value={input}
             onChange={handleInputChange}
-            files={files}
-            setFiles={setFiles}
+            files={null}
+            setFiles={() => {}}
             stop={handleStop}
             isGenerating={isGenerating}
             transcribeAudio={transcribeAudio}

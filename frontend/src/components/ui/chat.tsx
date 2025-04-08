@@ -6,17 +6,19 @@ import {
   useRef,
   useState,
   type ReactElement,
+  useEffect,
 } from "react";
 import { ArrowDown, ThumbsDown, ThumbsUp } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { useAutoScroll } from "@/hooks/use-auto-scroll";
 import { Button } from "@/components/ui/button";
-import { type Message } from "@/components/ui/chat-message";
+import { type Message, type MessagePart } from "@/components/ui/chat-message";
 import { CopyButton } from "@/components/ui/copy-button";
 import { MessageInput } from "@/components/ui/message-input";
 import { MessageList } from "@/components/ui/message-list";
 import { PromptSuggestions } from "@/components/ui/prompt-suggestions";
+import { saveChatToHistory } from "@/lib/chat-history";
 
 interface ChatPropsBase {
   handleSubmit: (event?: { preventDefault?: () => void }) => void;
@@ -30,7 +32,7 @@ interface ChatPropsBase {
     messageId: string,
     rating: "thumbs-up" | "thumbs-down",
   ) => void;
-  setMessages?: (messages: any[]) => void;
+  setMessages?: (messages: Message[]) => void;
   transcribeAudio?: (blob: Blob) => Promise<string>;
 }
 
@@ -93,7 +95,7 @@ export function Chat({
               state: "result",
               result: {
                 content: "Tool execution was cancelled",
-                __cancelled: true, // Special marker to indicate cancellation
+                __cancelled: true,
               },
             } as const;
           }
@@ -110,27 +112,29 @@ export function Chat({
     }
 
     if (lastAssistantMessage.parts && lastAssistantMessage.parts.length > 0) {
-      const updatedParts = lastAssistantMessage.parts.map((part: any) => {
-        if (
-          part.type === "tool-invocation" &&
-          part.toolInvocation &&
-          part.toolInvocation.state === "call"
-        ) {
-          needsUpdate = true;
-          return {
-            ...part,
-            toolInvocation: {
-              ...part.toolInvocation,
-              state: "result",
-              result: {
-                content: "Tool execution was cancelled",
-                __cancelled: true,
+      const updatedParts = lastAssistantMessage.parts.map(
+        (part: MessagePart) => {
+          if (
+            part.type === "tool-invocation" &&
+            part.toolInvocation &&
+            part.toolInvocation.state === "call"
+          ) {
+            needsUpdate = true;
+            return {
+              ...part,
+              toolInvocation: {
+                ...part.toolInvocation,
+                state: "result",
+                result: {
+                  content: "Tool execution was cancelled",
+                  __cancelled: true,
+                },
               },
-            },
-          };
-        }
-        return part;
-      });
+            };
+          }
+          return part;
+        },
+      );
 
       if (needsUpdate) {
         updatedMessage = {
@@ -187,6 +191,18 @@ export function Chat({
     }),
     [onRateResponse],
   );
+
+  useEffect(() => {
+    if (messages.length > 0 && !isGenerating) {
+      const lastMessage = messages[messages.length - 1];
+      if (lastMessage.role === "assistant") {
+        saveChatToHistory({
+          title: messages[0].content.slice(0, 50) + "...",
+          messages,
+        });
+      }
+    }
+  }, [messages, isGenerating]);
 
   return (
     <ChatContainer className={className}>

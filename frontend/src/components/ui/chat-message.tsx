@@ -55,17 +55,17 @@ const chatBubbleVariants = cva(
 
 type Animation = VariantProps<typeof chatBubbleVariants>["animation"];
 
-interface PartialToolCall {
+export interface PartialToolCall {
   state: "partial-call";
   toolName: string;
 }
 
-interface ToolCall {
+export interface ToolCall {
   state: "call";
   toolName: string;
 }
 
-interface ToolResult {
+export interface ToolResult {
   state: "result";
   toolName: string;
   result: {
@@ -74,29 +74,32 @@ interface ToolResult {
   };
 }
 
-type ToolInvocation = PartialToolCall | ToolCall | ToolResult;
+export type ToolInvocation = PartialToolCall | ToolCall | ToolResult;
 
-interface ReasoningPart {
+export interface ReasoningPart {
   type: "reasoning";
   reasoning: string;
 }
 
-interface ToolInvocationPart {
+export interface ToolInvocationPart {
   type: "tool-invocation";
   toolInvocation: ToolInvocation;
 }
 
-interface TextPart {
+export interface TextPart {
   type: "text";
   text: string;
 }
 
-// For compatibility with AI SDK types, not used
-interface SourcePart {
+export interface SourcePart {
   type: "source";
 }
 
-type MessagePart = TextPart | ReasoningPart | ToolInvocationPart | SourcePart;
+export type MessagePart =
+  | TextPart
+  | ReasoningPart
+  | ToolInvocationPart
+  | SourcePart;
 
 export interface Message {
   id: string;

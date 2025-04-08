@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { motion } from "framer-motion";
 import { Ban, ChevronRight, Code2, Loader2, Terminal } from "lucide-react";
@@ -11,7 +11,6 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { FilePreview } from "@/components/ui/file-preview";
 import { MarkdownRenderer } from "@/components/ui/markdown-renderer";
 
 const chatBubbleVariants = cva(
@@ -231,12 +230,6 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({
     </div>
   );
 };
-
-function dataUrlToUint8Array(data: string) {
-  const base64 = data.split(",")[1];
-  const buf = Buffer.from(base64, "base64");
-  return new Uint8Array(buf);
-}
 
 const ReasoningBlock = ({ part }: { part: ReasoningPart }) => {
   const [isOpen, setIsOpen] = useState(false);

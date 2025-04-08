@@ -1,14 +1,6 @@
 "use client";
 
-import {
-  Calendar,
-  Home,
-  Inbox,
-  MessageSquare,
-  Plus,
-  Search,
-  Settings,
-} from "lucide-react";
+import { MessageSquare, Plus } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 

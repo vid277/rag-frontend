@@ -25,7 +25,7 @@ export default function Page() {
   return (
     <div className="flex flex-col items-center justify-center h-screen w-screen overflow-hidden">
       <Navigation />
-      <div className="flex flex-col h-screen w-1/2 justify-center items-center m-4 gap-8">
+      <div className="flex flex-col h-screen w-[60%] justify-center items-center m-4 gap-8">
         <div className="flex flex-col gap-4 text-center font-shippori">
           <h1 className="text-5xl font-bold">
             Chat <span className="text-primary">GT</span>
@@ -40,9 +40,9 @@ export default function Page() {
               label="Get started with some questions"
               append={handleSuggestion}
               suggestions={[
-                "What is the capital of France?",
-                "What is the capital of Germany?",
-                "What is the capital of Italy?",
+                "What is the admission rate for Georgia Tech?",
+                "What are popular majors at Georgia Tech?",
+                "Upcoming events and activities at Georgia Tech",
               ]}
             />
           </div>
@@ -54,7 +54,7 @@ export default function Page() {
           handleSubmit={handleSubmit}
           isGenerating={isLoading}
           stop={stop}
-          className="overflow-y-auto max-h-[70vh]"
+          className="overflow-y-auto max-h-[70vh] w-full"
         />
       </div>
     </div>

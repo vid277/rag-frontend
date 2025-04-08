@@ -153,7 +153,7 @@ export default function ChatPage({
           <LoadingSpinner />
         </div>
       ) : (
-        <div className="flex flex-col h-50vh w-full justify-center items-center m-4 gap-8 overflow-y-hidden">
+        <div className="flex flex-col w-full justify-center items-center mx-12 gap-8 h-screen">
           <Chat
             messages={messages}
             handleSubmit={handleSubmit}
@@ -162,7 +162,7 @@ export default function ChatPage({
             isGenerating={isGenerating}
             setMessages={setMessages}
             stop={handleStop}
-            className="h-[calc(100vh-theme(spacing.16))] w-full"
+            className="h-screen w-full py-12"
           />
         </div>
       )}

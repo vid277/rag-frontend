@@ -68,13 +68,13 @@ export default function ChatPage({
     abortControllerRef.current = new AbortController();
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch("http://127.0.0.1:8080/query", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          messages: [...messages, newMessage],
+          query: input,
         }),
         signal: abortControllerRef.current.signal,
       });
@@ -101,29 +101,8 @@ export default function ChatPage({
         const text = new TextDecoder().decode(value);
         buffer += text;
 
-        let content = "";
-        const parts = buffer.split('0:"');
-        for (let i = 1; i < parts.length; i++) {
-          const part = parts[i];
-          const endQuoteIndex = part.indexOf('"');
-          if (endQuoteIndex !== -1) {
-            content += part.substring(0, endQuoteIndex);
-          }
-        }
-
-        if (content) {
-          const formattedContent = content
-            .replace(/\\n/g, "\n")
-            .replace(/\\"/, '"')
-            .replace(/\\\\n/g, "\\n")
-            .trim();
-
-          assistantMessage.content = formattedContent;
-          setMessages((prev) => [
-            ...prev.slice(0, -1),
-            { ...assistantMessage },
-          ]);
-        }
+        assistantMessage.content = buffer;
+        setMessages((prev) => [...prev.slice(0, -1), { ...assistantMessage }]);
       }
 
       saveChatToHistory({

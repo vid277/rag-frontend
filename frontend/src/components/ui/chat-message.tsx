@@ -116,6 +116,15 @@ export interface ChatMessageProps extends Message {
   actions?: React.ReactNode;
 }
 
+const HtmlRenderer = ({ content }: { content: string }) => {
+  return (
+    <div
+      className="prose prose-sm dark:prose-invert max-w-none [&_p]:mb-2 [&_ul]:my-2 [&_li]:mb-1 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:leading-relaxed"
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
+  );
+};
+
 export const ChatMessage: React.FC<ChatMessageProps> = ({
   role,
   content,
@@ -133,13 +142,20 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({
     minute: "2-digit",
   });
 
+  const renderContent = (content: string) => {
+    if (content.trim().startsWith("<")) {
+      return <HtmlRenderer content={content} />;
+    }
+    return <MarkdownRenderer>{content}</MarkdownRenderer>;
+  };
+
   if (isUser) {
     return (
       <div
         className={cn("flex flex-col", isUser ? "items-end" : "items-start")}
       >
         <div className={cn(chatBubbleVariants({ isUser, animation }))}>
-          <MarkdownRenderer>{content}</MarkdownRenderer>
+          {renderContent(content)}
         </div>
 
         {showTimeStamp && createdAt ? (
@@ -169,7 +185,7 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({
             key={`text-${index}`}
           >
             <div className={cn(chatBubbleVariants({ isUser, animation }))}>
-              <MarkdownRenderer>{part.text}</MarkdownRenderer>
+              {renderContent(part.text)}
               {actions ? (
                 <div className="absolute -bottom-4 right-2 flex space-x-1 rounded-lg border bg-background p-1 text-foreground opacity-0 transition-opacity group-hover/message:opacity-100">
                   {actions}
@@ -211,7 +227,7 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({
   return (
     <div className={cn("flex flex-col", isUser ? "items-end" : "items-start")}>
       <div className={cn(chatBubbleVariants({ isUser, animation }))}>
-        <MarkdownRenderer>{content}</MarkdownRenderer>
+        {renderContent(content)}
         {actions ? (
           <div className="absolute -bottom-4 right-2 flex space-x-1 rounded-lg border bg-background p-1 text-foreground opacity-0 transition-opacity group-hover/message:opacity-100">
             {actions}

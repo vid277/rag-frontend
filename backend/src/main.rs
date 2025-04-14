@@ -4,6 +4,7 @@ use async_openai::Client;
 use async_openai::config::OpenAIConfig;
 use serde::{Deserialize, Serialize};
 use std::path::PathBuf;
+use swiftide::indexing::IndexingStream;
 use swiftide::indexing::transformers::{
     ChunkMarkdown, Embed, MetadataKeywords, MetadataSummary, MetadataTitle,
 };
@@ -80,6 +81,8 @@ pub async fn main() -> Result<()> {
 
     let path = PathBuf::from("./scraped_data");
 
+    println!("Indexing content");
+
     index_content(&path, &openai, &qdrant).await?;
 
     let openai_data = web::Data::new(openai);
@@ -113,7 +116,6 @@ async fn index_content(path: &PathBuf, openai: &OpenAI, qdrant: &Qdrant) -> Resu
         .then(MetadataTitle::new(openai.clone()))
         .then(MetadataSummary::new(openai.clone()))
         .then_in_batch(|nodes: Vec<swiftide::indexing::Node>| {
-            use swiftide::indexing::IndexingStream;
             IndexingStream::iter(nodes.into_iter().map(|mut node| {
                 node.metadata
                     .insert("processed".to_string(), "true".to_string());

@@ -10,6 +10,7 @@ use swiftide::indexing::transformers::{
 use swiftide::indexing::{Pipeline, loaders::FileLoader};
 use swiftide::integrations::openai::OpenAI;
 use swiftide::integrations::qdrant::Qdrant;
+use swiftide::integrations::redis::Redis;
 use swiftide::query::{self, Query, answers, query_transformers, response_transformers, states};
 
 #[derive(Deserialize)]
@@ -78,7 +79,8 @@ pub async fn main() -> Result<()> {
         .build()?;
 
     let path = PathBuf::from("./scraped_data");
-    // index_content(&path, &openai, &qdrant).await?;
+
+    index_content(&path, &openai, &qdrant).await?;
 
     let openai_data = web::Data::new(openai);
     let qdrant_data = web::Data::new(qdrant);
@@ -104,6 +106,8 @@ async fn index_content(path: &PathBuf, openai: &OpenAI, qdrant: &Qdrant) -> Resu
     tracing::info!(path=?path, "Indexing content");
 
     Pipeline::from_loader(FileLoader::new(path).with_extensions(&["md"]))
+        .with_concurrency(2)
+        .filter_cached(Redis::try_from_url("redis://localhost:6379", "gt-rag-v1")?)
         .then_chunk(ChunkMarkdown::from_chunk_range(50..1024))
         .then(MetadataKeywords::new(openai.clone()))
         .then(MetadataTitle::new(openai.clone()))

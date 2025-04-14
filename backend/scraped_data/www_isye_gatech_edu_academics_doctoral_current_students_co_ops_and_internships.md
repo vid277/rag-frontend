@@ -1,0 +1,7 @@
+[Skip to main navigation](https://www.isye.gatech.edu/academics/doctoral/current-students/co-ops-and-internships#main-navigation) [Skip to main content](https://www.isye.gatech.edu/academics/doctoral/current-students/co-ops-and-internships#main-content)
+
+# Co-ops and Internships
+
+Consider participating in a co-op or internship or joining one of our professional or student organizations to enhance your classroom activities. There are a number of organizations open to graduate students, and they are a great way to grow your network, develop your leadership skills, and expand your knowledge of your field. Many of our Ph.D. students participate in summer internships with companies they are interested in checking out or on a project that relates to their research while our Master's students often choose to participate in the co-op experience.
+
+Georgia Tech’s [Graduate Co-op/Internship program](https://career.gatech.edu/graduate-students/co-op-internship "(opens in a new window)") provides graduate students with the opportunity to work with industry and government leaders in their respective areas of study. Eligibility for the program is based on academic achievement at Georgia Tech. Research for doctoral theses may be related to the work assignments, and is jointly supervised by Georgia Tech faculty and company staff.

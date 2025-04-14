@@ -78,7 +78,7 @@ pub async fn main() -> Result<()> {
         .build()?;
 
     let path = PathBuf::from("./scraped_data");
-    index_content(&path, &openai, &qdrant).await?;
+    // index_content(&path, &openai, &qdrant).await?;
 
     let openai_data = web::Data::new(openai);
     let qdrant_data = web::Data::new(qdrant);

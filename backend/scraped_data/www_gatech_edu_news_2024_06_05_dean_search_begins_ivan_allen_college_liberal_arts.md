@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/05/dean-search-begins-ivan-allen-college-liberal-arts#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/05/dean-search-begins-ivan-allen-college-liberal-arts#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/05/dean-search-begins-ivan-allen-college-liberal-arts#main-content)
+
+# Dean Search Begins for Ivan Allen College of Liberal Arts
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # Dean Search Begins for Ivan Allen College of Liberal Arts

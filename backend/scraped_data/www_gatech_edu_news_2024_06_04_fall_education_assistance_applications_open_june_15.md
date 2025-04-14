@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/04/fall-education-assistance-applications-open-june-15#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/04/fall-education-assistance-applications-open-june-15#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/04/fall-education-assistance-applications-open-june-15#main-content)
+
+# Fall Education Assistance Applications Open June 15
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # Fall Education Assistance Applications Open June 15

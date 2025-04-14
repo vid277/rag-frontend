@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/05/16/rotorjackets-finish-third-drone-racing-championship#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/05/16/rotorjackets-finish-third-drone-racing-championship#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/05/16/rotorjackets-finish-third-drone-racing-championship#main-content)
+
+# RotorJackets Finish Third at Drone Racing Championship
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # RotorJackets Finish Third at Drone Racing Championship
@@ -22,3 +28,9 @@ Outside of competition, the RotorJackets have supported Georgia Tech Athletics, 
 As he hands the reins to Dylan Wyckoff, the incoming president, Boraks anticipates another busy year for the RotorJackets, and their sights are set on reclaiming their place atop the podium at the 2025 CDRC.
 
 To learn more or to join the RotorJackets, visit their [website](https://rotorjackets.tech/).
+
+This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
+
+More info
+
+AcceptNo, thanks

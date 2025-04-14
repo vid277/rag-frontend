@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/05/31/researchers-create-winning-strategy-combat-vaccine-misinformation-x#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/05/31/researchers-create-winning-strategy-combat-vaccine-misinformation-x#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/05/31/researchers-create-winning-strategy-combat-vaccine-misinformation-x#main-content)
+
+# Researchers Create Winning Strategy to Combat Vaccine Misinformation on X
+
 [Society and Culture](https://www.gatech.edu/news/topic/society-and-culture)
 
 # Researchers Create Winning Strategy to Combat Vaccine Misinformation on X
@@ -24,8 +30,3 @@ In the paper, the researchers write that their data set pre-dates the rollout of
 As one of the first taxonomies of user social correction on the X platform, the researchers hope will aid future fact-checking efforts. While the paper only focused on text posts in the English language, it is a framework that can be expanded to address the growing threat of misinformation online.
 
 _Corrective or Backfire: Characterizing and Predicting User Response to Social Correction_ was co-authored by Ph.D. students **Bing He** and **Yingchen (Eric) Ma** and their advisors Regents’ Entrepreneur **Mustaque Ahamad**, a professor with joint appointments in the [**School of Cybersecurity and Privacy**](https://scp.cc.gatech.edu/) and the [**School of Computer Science**](https://www.scs.gatech.edu/), and [**School of Computational Science and Engineering**](https://www.cse.gatech.edu/) Assistant Professor **Srijan Kumar**.
-
-This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
-
-
-AcceptNo, thanks

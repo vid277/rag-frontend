@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/04/welcome-wreck-program-supports-new-research-faculty-hires#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/04/welcome-wreck-program-supports-new-research-faculty-hires#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/04/welcome-wreck-program-supports-new-research-faculty-hires#main-content)
+
+# Welcome Wreck Program Supports New Research Faculty Hires
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # Welcome Wreck Program Supports New Research Faculty Hires
@@ -32,3 +38,9 @@ Inaugural ambassadors include:
 If you are interested in contributing as an ambassador or would like more information about participation, visit the [Office of the Vice Provost for Faculty website](https://faculty.gatech.edu/faculty-resources/research-faculty/welcome-wreck) for more information.
 
 _Writer: Brittany Aiello, Faculty Communications Program Manager, Organizational and Academic Communications, Institute Communications_
+
+This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
+
+More info
+
+AcceptNo, thanks

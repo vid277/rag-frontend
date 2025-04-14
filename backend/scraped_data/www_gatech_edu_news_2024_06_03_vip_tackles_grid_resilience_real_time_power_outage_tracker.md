@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/03/vip-tackles-grid-resilience-real-time-power-outage-tracker#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/03/vip-tackles-grid-resilience-real-time-power-outage-tracker#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/03/vip-tackles-grid-resilience-real-time-power-outage-tracker#main-content)
+
+# VIP Tackles Grid Resilience with Real-Time Power Outage Tracker
+
 [Society and Culture](https://www.gatech.edu/news/topic/society-and-culture)
 
 # VIP Tackles Grid Resilience with Real-Time Power Outage Tracker
@@ -36,8 +42,3 @@ They are writing a paper based on data showing that racial and ethnic minorities
 This summer, they will partner with the Oak Ridge National Laboratory to provide technical assistance to the Department of Energy Grid Deployment Office, which is the lead federal agency administering grid modernization grants.
 
 “It is incredibly rewarding to connect with research groups in and out of Georgia Tech who share this vision with us,” An said. “We’re excited to conduct robust research that will inform real-word policy making across the country."
-
-This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
-
-
-AcceptNo, thanks

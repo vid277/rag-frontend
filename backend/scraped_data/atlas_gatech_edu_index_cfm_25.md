@@ -1,0 +1,1 @@
+30270Check Your GT Junk Mail!From time to time, important communications from the Atlas application system will land in your GT junk mail. Please regularly check your junk folder to avoid missing these messages.0

@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/21/georgia-tech-tops-best-value-college-lists#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/21/georgia-tech-tops-best-value-college-lists#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/21/georgia-tech-tops-best-value-college-lists#main-content)
+
+# Georgia Tech Tops Best Value College Lists
+
 # Georgia Tech Tops Best Value College Lists
 
 Jun 21, 2024
@@ -14,8 +20,3 @@ Additionally, Georgia Tech ranked No. 1 among public universities in career plac
 Georgia Tech has also retained its standing as a five-star institution according to _Money_ magazine’s formula highlighting quality, affordability, and outcomes. Naming the Institute among [America’s Best Colleges](https://money.com/best-colleges/profile/georgia-institute-of-technology-main-campus/), the publication praised its diverse research opportunities for students and lofty median salaries upon graduation.
 
 Tech has recently received similar accolades — from being named to [_Forbes Magazine's_ list of “new Ivies”](https://news.gatech.edu/news/2024/05/08/forbes-ranks-georgia-tech-new-ivies-list) to [_Bloomberg's_ recognition of its high ROI](https://news.gatech.edu/news/2024/04/16/bloomberg-report-highlights-georgia-tech-roi).
-
-This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
-
-
-AcceptNo, thanks

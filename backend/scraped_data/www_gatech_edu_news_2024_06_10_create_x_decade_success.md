@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/10/create-x-decade-success#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/10/create-x-decade-success#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/10/create-x-decade-success#main-content)
+
+# CREATE-X: A Decade of Success
+
 # CREATE-X: A Decade of Success
 
 Jun 10, 2024

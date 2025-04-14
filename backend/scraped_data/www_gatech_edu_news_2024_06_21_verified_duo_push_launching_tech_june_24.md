@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/21/verified-duo-push-launching-tech-june-24#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/21/verified-duo-push-launching-tech-june-24#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/21/verified-duo-push-launching-tech-june-24#main-content)
+
+# Verified Duo Push Launching at Tech June 24
+
 [Science and Technology](https://www.gatech.edu/news/topic/science-and-technology)
 
 # Verified Duo Push Launching at Tech June 24

@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/11/researchers-help-maritime-industry-navigate-toward-sustainability#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/11/researchers-help-maritime-industry-navigate-toward-sustainability#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/11/researchers-help-maritime-industry-navigate-toward-sustainability#main-content)
+
+# Researchers Help Maritime Industry Navigate Toward Sustainability
+
 [Earth and Environment](https://www.gatech.edu/news/topic/earth-and-environment)
 
 # Researchers Help Maritime Industry Navigate Toward Sustainability
@@ -54,3 +60,9 @@ The work Thomas and Stathatou do is part of a broad portfolio of shipping sustai
 Stathatou envisions that, with more shipping companies now looking to curb their emissions, there will be significant adoption of new fuels and technologies within the next decade.
 
 “Ocean shipping is a transportation sector that we cannot go without, and so decarbonizing it is very important,” Stathatou said. “I believe the ability to perform these assessments and guide the development of future solutions will have a tremendous impact on humanity.”
+
+This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
+
+More info
+
+AcceptNo, thanks

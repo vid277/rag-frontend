@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/18/enterprise-innovation-institute-hosts-foreign-entrepreneurs-through-us-state#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/18/enterprise-innovation-institute-hosts-foreign-entrepreneurs-through-us-state#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/18/enterprise-innovation-institute-hosts-foreign-entrepreneurs-through-us-state#main-content)
+
+# Enterprise Innovation Institute Hosts Foreign Entrepreneurs Through U.S. State Department Program
+
 [Business and Economic Development](https://www.gatech.edu/news/topic/business-and-economic-development)
 
 # Enterprise Innovation Institute Hosts Foreign Entrepreneurs Through U.S. State Department Program

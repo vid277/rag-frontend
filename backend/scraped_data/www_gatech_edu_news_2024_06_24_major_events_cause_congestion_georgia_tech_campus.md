@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/24/major-events-cause-congestion-georgia-tech-campus#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/24/major-events-cause-congestion-georgia-tech-campus#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/24/major-events-cause-congestion-georgia-tech-campus#main-content)
+
+# Major Events to Cause Congestion on Georgia Tech Campus
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # Major Events to Cause Congestion on Georgia Tech Campus

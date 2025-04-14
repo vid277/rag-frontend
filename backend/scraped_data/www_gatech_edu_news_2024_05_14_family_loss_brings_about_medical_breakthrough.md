@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/05/14/family-loss-brings-about-medical-breakthrough#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/05/14/family-loss-brings-about-medical-breakthrough#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/05/14/family-loss-brings-about-medical-breakthrough#main-content)
+
+# Family Loss Brings About Medical Breakthrough
+
 [Health and Medicine](https://www.gatech.edu/news/topic/health-and-medicine)
 
 # Family Loss Brings About Medical Breakthrough
@@ -24,8 +30,3 @@ Duarte has been working with Yeo on this system for more than 10 years. She says
 Yeo’s device may not have caught the arrhythmia that caused his father’s heart attack, but nights or weeks of data would have made effective medical intervention much more likely.
 
 Inspired by his own family’s loss, Yeo’s life’s work has become a tool of hope for others.
-
-This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
-
-
-AcceptNo, thanks

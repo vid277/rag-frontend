@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/05/15/brewery-biofilter-making-yeast-based-water-purification-possible#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/05/15/brewery-biofilter-making-yeast-based-water-purification-possible#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/05/15/brewery-biofilter-making-yeast-based-water-purification-possible#main-content)
+
+# From Brewery to Biofilter: Making Yeast-Based Water Purification Possible
+
 [Science and Technology](https://www.gatech.edu/news/topic/science-and-technology)
 
 # From Brewery to Biofilter: Making Yeast-Based Water Purification Possible

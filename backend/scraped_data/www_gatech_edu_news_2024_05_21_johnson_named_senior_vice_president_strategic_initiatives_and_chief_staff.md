@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/05/21/johnson-named-senior-vice-president-strategic-initiatives-and-chief-staff#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/05/21/johnson-named-senior-vice-president-strategic-initiatives-and-chief-staff#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/05/21/johnson-named-senior-vice-president-strategic-initiatives-and-chief-staff#main-content)
+
+# Johnson Named Senior Vice President of Strategic Initiatives and Chief of Staff
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # Johnson Named Senior Vice President of Strategic Initiatives and Chief of Staff

@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/06/phd-student-wins-best-paper-robotics-conference#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/06/phd-student-wins-best-paper-robotics-conference#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/06/phd-student-wins-best-paper-robotics-conference#main-content)
+
+# Ph.D. Student Wins Best Paper at Robotics Conference
+
 # Ph.D. Student Wins Best Paper at Robotics Conference
 
 Jun 06, 2024
@@ -56,8 +62,3 @@ Yokoyama said as VLM models continue to improve, so will robot navigation. The i
 “It shows how important it is to keep an eye on the work being done in computer vision and natural language processing for getting robots to perform tasks more efficiently,” he said. “The current research direction in robot learning is moving toward more intelligent and higher-level reasoning. These foundation models are going to play a key role in that.”
 
 _Top photo by Kevin Beasley/College of Computing._
-
-This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
-
-
-AcceptNo, thanks

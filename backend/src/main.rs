@@ -104,7 +104,6 @@ async fn index_content(path: &PathBuf, openai: &OpenAI, qdrant: &Qdrant) -> Resu
     tracing::info!(path=?path, "Indexing content");
 
     Pipeline::from_loader(FileLoader::new(path).with_extensions(&["md"]))
-        .with_concurrency(2)
         .then_chunk(ChunkMarkdown::from_chunk_range(50..1024))
         .then(MetadataKeywords::new(openai.clone()))
         .then(MetadataTitle::new(openai.clone()))

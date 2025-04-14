@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/07/breaking-barriers-amaya-mcnealey-navigating-complexities-algorithmic-fairness#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/07/breaking-barriers-amaya-mcnealey-navigating-complexities-algorithmic-fairness#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/07/breaking-barriers-amaya-mcnealey-navigating-complexities-algorithmic-fairness#main-content)
+
+# Breaking Barriers with Amaya McNealey: Navigating the Complexities of Algorithmic Fairness
+
 # Breaking Barriers with Amaya McNealey: Navigating the Complexities of Algorithmic Fairness
 
 Jun 07, 2024
@@ -36,3 +42,9 @@ Her award-winning presentation exemplifies inclusive excellence and leads the ne
 \\_\\_\\_
 
 By: Camille Carpenter, Communications Manager
+
+This website uses cookies. For more information, review our [Privacy & Legal Notice](https://www.gatech.edu/privacy). Questions? Please email [privacy@gatech.edu](mailto:privacy@gatech.edu).
+
+More info
+
+AcceptNo, thanks

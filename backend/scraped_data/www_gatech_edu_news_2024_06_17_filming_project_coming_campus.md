@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/17/filming-project-coming-campus#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/17/filming-project-coming-campus#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/17/filming-project-coming-campus#main-content)
+
+# Filming Project Coming to Campus
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # Filming Project Coming to Campus

@@ -1,3 +1,9 @@
+[Enable accessibility](https://www.gatech.edu/news/2024/06/13/celebrating-juneteenth-georgia-tech#)
+
+ [Skip to main navigation](https://www.gatech.edu/news/2024/06/13/celebrating-juneteenth-georgia-tech#main-navigation) [Skip to main content](https://www.gatech.edu/news/2024/06/13/celebrating-juneteenth-georgia-tech#main-content)
+
+# Celebrating Juneteenth at Georgia Tech
+
 [Campus and Community](https://www.gatech.edu/news/topic/campus-and-community)
 
 # Celebrating Juneteenth at Georgia Tech

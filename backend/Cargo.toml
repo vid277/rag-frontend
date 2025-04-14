@@ -1,0 +1,23 @@
+[package]
+name = "gt-rag-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+async-openai = "0.28.0"
+clap = { version = "4.5.35", features = ["derive", "string"] }
+dotenv = "0.15"
+fastembed = "4.7.0"
+swiftide = { version = "0.22.8", features = [
+  "qdrant",
+  "openai",
+  "redis",
+  "tree-sitter",
+] }
+tokio = { version = "1.44.2", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+actix-web = "4.5.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

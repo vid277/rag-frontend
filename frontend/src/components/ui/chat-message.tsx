@@ -14,7 +14,7 @@ import {
 import { MarkdownRenderer } from "@/components/ui/markdown-renderer";
 
 const chatBubbleVariants = cva(
-  "group/message relative break-words rounded-lg p-3 text-sm sm:max-w-[70%]",
+  "group/message relative break-words rounded-lg p-3 text-sm sm:max-w-full text-wrap",
   {
     variants: {
       isUser: {
@@ -119,7 +119,7 @@ export interface ChatMessageProps extends Message {
 const HtmlRenderer = ({ content }: { content: string }) => {
   return (
     <div
-      className="prose prose-sm dark:prose-invert max-w-none [&_p]:mb-2 [&_ul]:my-2 [&_li]:mb-1 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:leading-relaxed"
+      className="prose prose-sm dark:prose-invert max-w-none [&_h1]:text-xl [&_h1]:font-bold [&_h1]:mb-3 [&_h2]:text-lg [&_h2]:font-semibold [&_h2]:mb-2 [&_h3]:text-base [&_h3]:font-semibold [&_h3]:mb-2 [&_p]:mb-2 [&_ul]:my-2 [&_li]:mb-1 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:leading-relaxed"
       dangerouslySetInnerHTML={{ __html: content }}
     />
   );
@@ -146,7 +146,28 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({
     if (content.trim().startsWith("<")) {
       return <HtmlRenderer content={content} />;
     }
-    return <MarkdownRenderer>{content}</MarkdownRenderer>;
+
+    // Convert content to proper markdown format if it's a list
+    const formattedContent = content
+      .split("\n")
+      .map((line) => {
+        // If line starts with a word and ends with a colon, make it a header
+        if (/^[A-Za-z\s]+:$/.test(line.trim())) {
+          return `### ${line.trim().replace(":", "")}`;
+        }
+        // If line starts with a dash or asterisk, ensure it's a proper list item
+        if (/^[-*]\s/.test(line.trim())) {
+          return line.trim();
+        }
+        return line;
+      })
+      .join("\n");
+
+    return (
+      <div className="prose prose-sm dark:prose-invert max-w-none [&_h3]:text-lg [&_h3]:font-semibold [&_h3]:mb-2 [&_ul]:my-2 [&_li]:mb-1 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:leading-relaxed">
+        <MarkdownRenderer>{formattedContent}</MarkdownRenderer>
+      </div>
+    );
   };
 
   if (isUser) {
@@ -254,7 +275,7 @@ const ReasoningBlock = ({ part }: { part: ReasoningPart }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="mb-2 flex flex-col items-start sm:max-w-[70%]">
+    <div className="mb-2 flex flex-col items-start sm:max-w-full">
       <Collapsible
         open={isOpen}
         onOpenChange={setIsOpen}
